@@ -1,0 +1,1 @@
+"# Kaua'i RAG Tourism ??\n\nEste ‚ um projeto final do curso Advanced LLM + RAG.\nObjetivo: criar um assistente tur¡stico especializado em **Kaua'i, Hava¡**, utilizando RAG (Retrieval Augmented Generation)." 
