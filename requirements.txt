@@ -1,1 +1,7 @@
-"gradio\nlangchain\nopenai\nchromadb\ntiktoken\npypdf" 
+gradio==4.44.0
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-openai==0.1.15
+chromadb==0.5.5
+tiktoken==0.7.0
+pypdf==4.2.0

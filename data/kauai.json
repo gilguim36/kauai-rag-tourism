@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Waimea Canyon",
+    "category": "Nature",
+    "description": "Known as the 'Grand Canyon of the Pacific,' it offers spectacular views of deep valleys and colorful cliffs.",
+    "recommended_duration": "Half day",
+    "tips": "Bring water and sunscreen, visit in the morning to avoid fog."
+  },
+  {
+    "name": "Nā Pali Coast",
+    "category": "Nature / Adventure",
+    "description": "Dramatic coastline accessible by boat, helicopter, or hiking. Famous for green cliffs and secluded beaches.",
+    "recommended_duration": "Full day",
+    "tips": "Book tours in advance; Kalalau Trail requires a permit."
+  },
+  {
+    "name": "Hanalei Bay",
+    "category": "Beach",
+    "description": "Crescent-shaped bay with calm waters in summer and strong waves in winter.",
+    "recommended_duration": "4 to 6 hours",
+    "tips": "Good for beginner surfing in summer; parking fills up fast."
+  },
+  {
+    "name": "Wailua Falls",
+    "category": "Waterfall",
+    "description": "26-meter waterfall visible from the road, famous from the 'Fantasy Island' TV opening.",
+    "recommended_duration": "1 hour",
+    "tips": "Quick visit; ideal to combine with other Wailua attractions."
+  },
+  {
+    "name": "Poipu Beach",
+    "category": "Beach",
+    "description": "Reef-protected beach, ideal for families, snorkeling, and spotting Hawaiian monk seals.",
+    "recommended_duration": "3 to 5 hours",
+    "tips": "Good infrastructure; arrive early."
+  },
+  {
+    "name": "Kokeʻe State Park",
+    "category": "Hiking / Park",
+    "description": "Mountainous park with dozens of trails and views of the Nā Pali Coast.",
+    "recommended_duration": "Full day",
+    "tips": "Weather changes quickly; bring a rain jacket."
+  },
+  {
+    "name": "Allerton Garden",
+    "category": "Botanical Garden",
+    "description": "Tropical garden with giant fig trees and film sets from Jurassic Park.",
+    "recommended_duration": "2 to 3 hours",
+    "tips": "Guided tours required; book in advance."
+  },
+  {
+    "name": "Spouting Horn",
+    "category": "Natural Attraction",
+    "description": "A reef blowhole that shoots water spectacularly when waves enter.",
+    "recommended_duration": "30 minutes",
+    "tips": "Best in late afternoon; great quick stop after Poipu Beach."
+  },
+  {
+    "name": "Kilauea Lighthouse",
+    "category": "Historic / Nature",
+    "description": "Historic lighthouse on a dramatic cliff, surrounded by protected seabirds.",
+    "recommended_duration": "1 to 2 hours",
+    "tips": "Bring binoculars for birdwatching; great for photos."
+  },
+  {
+    "name": "Queen’s Bath",
+    "category": "Natural Pool",
+    "description": "Tidal pool formed in lava rock. Beautiful but dangerous in high tides.",
+    "recommended_duration": "2 hours",
+    "tips": "Visit only at low tide; check safety conditions first."
+  }
+]
