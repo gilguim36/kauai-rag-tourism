@@ -106,7 +106,7 @@ All functionalities can be tested within this limit.
 ## 🚀 How to Run Locally
 
 # 1. Clone repo
-git clone https://github.com/<your-username>/kauai-rag-tourism
+git clone https://github.com/gilguim36/kauai-rag-tourism
 cd kauai-rag-tourism
 
 # 2. Create virtual env
@@ -142,17 +142,17 @@ Evaluator can run everything directly without extra setup.
 📂 Repo Structure
 
 kauai-rag-tourism/
-├── app.py                # Main Gradio app
-├── requirements.txt      # Dependencies
-├── README.md             # Documentation
+├── app.py # Main Gradio app
+├── requirements.txt # Dependencies
+├── README.md # Documentation
 ├── data/
-│   ├── kauai.json        # Structured attractions data
-│   └── kauai-maps.pdf    # Tourist guide PDF
+│ ├── kauai.json # Structured attractions data
+│ └── kauai-maps.pdf # Tourist guide PDF
 ├── scripts/
-│   ├── index_data.py     # Indexer for JSON + PDF
-│   ├── debug_metadata.py # Debug tool for categories
-│   └── debug_beach.py    # Debug tool for beaches
-└── db/                   # Vector database (auto-generated)
+│ ├── index_data.py # Indexer for JSON + PDF
+│ ├── debug_metadata.py # Debug tool for categories
+│ └── debug_beach.py # Debug tool for beaches
+└── db/ # Vector database (auto-generated)
 
 📌 Notes
 
