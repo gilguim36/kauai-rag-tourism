@@ -1,6 +1,6 @@
 # 🌺 Kaua’i RAG Tourism — Travel Assistant
 
-Final project for the **Advanced LLM + RAG** course.  
+Final project for the **Full Stack AI Engineering** course.  
 This app is a **tourism assistant for Kaua’i (Hawaii)**, combining structured knowledge (JSON) and tourist guides (PDF) with **Retrieval Augmented Generation (RAG)**.
 
 Users can ask questions about Kaua’i and filter results by category (Beach, Nature, Waterfall, etc.).  
