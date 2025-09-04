@@ -60,7 +60,9 @@ The evaluator can validate that all requirements are satisfied by trying the exa
 ⚠️ **Validation Tip**:  
 If the user selects a category that does not match the question (e.g., *"What is Waimea Canyon?"* with filter *Beach*), the app will return:
 
+```
 ⚠️ No results found for category Beach. Try another one.
+```
 
 This proves that **Metadata Filtering** is enforced and not just cosmetic.
 
@@ -76,9 +78,10 @@ All functionalities can be tested within this limit.
 ## 🖥️ Screenshots (Simulation)
 
 - **App main interface**  
-  ![UI Example](https://dummyimage.com/800x400/ededed/333333&text=Kauai+Tourism+Assistant+-+Gradio+UI)
+  <img width="1900" height="808" alt="image" src="https://github.com/user-attachments/assets/4d1b1f66-3d18-4aae-afbf-f8b53ed0aacd" />
 
-- **Loading feedback (user experience improvement)**  
+- **Loading feedback (user experience improvement)**
+  <img width="1886" height="184" alt="image" src="https://github.com/user-attachments/assets/bc34e781-4ffd-4d30-86d2-36bef100d158" /> 
 
 This proves that **Metadata Filtering** is enforced and not just cosmetic.
 
@@ -93,20 +96,26 @@ All functionalities can be tested within this limit.
 
 ## 🖥️ Screenshots (Simulation)
 
-- **App main interface**  
-  ![UI Example](https://dummyimage.com/800x400/ededed/333333&text=Kauai+Tourism+Assistant+-+Gradio+UI)
+- **App main interface**   
+  <img width="1871" height="795" alt="image" src="https://github.com/user-attachments/assets/3e79dfdb-463c-4975-a505-19bab7195dc1" />
 
 - **Loading feedback (user experience improvement)**  
-⏳ Processing your question, please wait...
-
-- **Metadata filtering example**  
-
+  ```
+  ⏳ Processing your question, please wait...
+  ```
+  
+- **Metadata filtering example**
+  ```
+  ⚠️ No results found for category Beach. Try another one.
+  ```
+  
 ---
 
 ## 🚀 How to Run Locally
 
+```bash
 # 1. Clone repo
-git clone https://github.com/gilguim36/kauai-rag-tourism
+git clone https://github.com/<your-username>/kauai-rag-tourism
 cd kauai-rag-tourism
 
 # 2. Create virtual env
@@ -122,42 +131,43 @@ python scripts/index_data.py
 
 # 5. Run app
 python app.py
+```
 
-Then open http://127.0.0.1:7860 in your browser.
+Then open [http://127.0.0.1:7860](http://127.0.0.1:7860) in your browser.
 
-🌐 Deployment on Hugging Face
+---
 
-Push repo to Hugging Face Space.
+## 🌐 Deployment on Hugging Face
 
-Ensure app.py, requirements.txt, README.md, and data/ folder are included.
+1. Push repo to Hugging Face Space.  
+2. Ensure `app.py`, `requirements.txt`, `README.md`, and `data/` folder are included.  
+3. Space will auto-install dependencies from `requirements.txt`.  
 
-Space will auto-install dependencies from requirements.txt.
+- Recommended Python version: **3.10+**  
+- Make sure Space is set to **public**.  
+- Evaluator can run everything directly without extra setup.  
 
-Recommended Python version: 3.10+
+---
 
-Make sure Space is set to public.
+## 📂 Repo Structure
 
-Evaluator can run everything directly without extra setup.
-
-📂 Repo Structure
-
+```bash
 kauai-rag-tourism/
-├── app.py # Main Gradio app
-├── requirements.txt # Dependencies
-├── README.md # Documentation
+├── app.py                # Main Gradio app
+├── requirements.txt      # Dependencies
+├── README.md             # Documentation
 ├── data/
-│ ├── kauai.json # Structured attractions data
-│ └── kauai-maps.pdf # Tourist guide PDF
+│   ├── kauai.json        # Structured attractions data
+│   └── kauai-maps.pdf    # Tourist guide PDF
 ├── scripts/
-│ ├── index_data.py # Indexer for JSON + PDF
-│ ├── debug_metadata.py # Debug tool for categories
-│ └── debug_beach.py # Debug tool for beaches
-└── db/ # Vector database (auto-generated)
+│   ├── index_data.py     # Indexer for JSON + PDF
+│   ├── debug_metadata.py # Debug tool for categories
+│   └── debug_beach.py    # Debug tool for beaches
+└── db/                   # Vector database (auto-generated)
+```
 
 📌 Notes
 
-User must provide their own OpenAI API Key (sk-...) to use the app.
-
-API Key is never exposed in code (security best practice).
-
-This project was built with certification requirements in mind, but also serves as a portfolio piece for LLM + RAG applications.
+- User must provide their **own OpenAI API Key** (`sk-...`) to use the app.  
+- API Key is never exposed in code (security best practice).  
+- This project was built with certification requirements in mind, but also serves as a **portfolio piece** for LLM + RAG applications.
